@@ -6,9 +6,11 @@ _Made with :_
 
 _Steps to run application :_
 
-> `git clone https://github.com/lokeshchoudhary-lc/simple-todo-list-postgresql-rest-api.git`
+> `git clone https://github.com/lokeshchoudhary-lc/simple-todo-list-mongodb-rest-api.git`
 
 > `npm install`
+
+> `Make you own .env from .evn.example`
 
 > `npm start`
 
