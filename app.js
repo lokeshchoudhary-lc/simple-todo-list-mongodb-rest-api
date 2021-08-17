@@ -18,6 +18,10 @@ app.get('/', (_req, res) => {
   res.send('Hello World 😀');
 });
 
+const todo = require('./routes/todo');
+
+app.use('/todo', todo);
+
 app.use(async (_req, _res, next) => {
   const error = createError.NotFound();
   next(error);
