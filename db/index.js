@@ -6,7 +6,7 @@ mongoose.connect(mongouri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
-  useFindAndModify: true,
+  useFindAndModify: false,
 });
 
 mongoose.connection.on('connected', () => console.log('Connected to database'));
