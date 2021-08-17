@@ -4,7 +4,11 @@ _Made with :_
 
 - Node
 
-_Scripts Commands :_
+_Steps to run application :_
+
+> `git clone https://github.com/lokeshchoudhary-lc/simple-todo-list-postgresql-rest-api.git`
+
+> `npm install`
 
 > `npm start`
 
