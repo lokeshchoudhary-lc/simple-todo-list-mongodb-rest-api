@@ -4,9 +4,9 @@ const cors = require('cors');
 
 const createError = require('http-errors');
 
-require('./db/index');
-
 require('dotenv').config();
+
+require('./db/index');
 
 const app = express();
 
